@@ -13,6 +13,8 @@ Registry: ide.windowSystem.autoShowProcessPopup=true, ide.new.welcome.screen.for
 Non-Bundled Plugins: Statistic, com.thoughtworks.gauge, org.intellij.plugins.markdown, com.intellij.marketplace, org.jetbrains.kotlin, cn.yiiguxing.plugin.translate
 
 
-
-
-
+<img src="https://github.com/JJJiangYH/Android-Markdown-demo-CommonMark/blob/master/picture/pic%20(1).png" width="20%">
+<img src="https://github.com/JJJiangYH/Android-Markdown-demo-CommonMark/blob/master/picture/pic%20(2).png" width="20%">
+<img src="https://github.com/JJJiangYH/Android-Markdown-demo-CommonMark/blob/master/picture/pic%20(3).png" width="20%">
+<img src="https://github.com/JJJiangYH/Android-Markdown-demo-CommonMark/blob/master/picture/pic%20(4).png" width="20%">
+<img src="https://github.com/JJJiangYH/Android-Markdown-demo-CommonMark/blob/master/picture/pic%20(5).png" width="20%">
