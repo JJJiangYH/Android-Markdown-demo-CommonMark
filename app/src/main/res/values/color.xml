@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="flesh">#F1E8D9</color>
+    <color name="flesh_black">#F8E4C2</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="tea_green">#7CB342</color>
+    <color name="tea_green_black">#43A047</color>
+    <color name="black_50">#50000000</color>
+    <color name="black_70">#70000000</color>
+    <color name="gray">#E8DDCB</color>
+
+    <color name="app_bg_color">@color/flesh</color>
+    <color name="app_text_color">@color/black</color>
+
+    <color name="topBar_color">@color/flesh_black</color>
+    <color name="statusBar_color">@color/flesh_black</color>
+
+    <color name="tab_bg_color">@color/tea_green</color>
+    <color name="tab_bg_onclick_color">@color/tea_green_black</color>
+    <color name="knowledge_inf_color">@color/black_70</color>
+    <color name="knowledge_time_color">@color/black_70</color>
+    <color name="list_sub_color">@color/black_70</color>
+</resources>

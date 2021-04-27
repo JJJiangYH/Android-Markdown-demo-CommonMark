@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@null"
+    android:minHeight="50dp"
+    android:orientation="horizontal"
+    tools:showIn="@layout/activity_markdown">
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/black" />
+
+    <Button
+        android:id="@+id/title"
+        style="@style/markdown_button"
+        android:hint="@string/title"
+        android:tag="# "
+        android:text="@string/title" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/black" />
+
+    <Button
+        android:id="@+id/bold"
+        style="@style/markdown_button"
+        android:hint="@string/bold"
+        android:tag="****"
+        android:text="@string/bold" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/black" />
+
+    <Button
+        android:id="@+id/italics"
+        style="@style/markdown_button"
+        android:hint="@string/italics"
+        android:tag="__"
+        android:text="@string/italics" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/black" />
+</LinearLayout>

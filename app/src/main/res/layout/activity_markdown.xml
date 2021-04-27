@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg_color"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/ll_markdown"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:orientation="vertical"
+        tools:ignore="ScrollViewSize">
+
+        <include layout="@layout/item_markdown_topbar" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+        <include layout="@layout/item_markdown_button" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+        <include layout="@layout/item_markdown_button_2" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+        <EditText
+            android:id="@+id/et_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:ems="16"
+            android:hint="@string/title"
+            android:inputType="textPersonName"
+            android:textSize="22dp" />
+
+        <EditText
+            android:id="@+id/markdown"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:ems="10"
+            android:focusable="true"
+            android:gravity="start|top"
+            android:hint="请在此输入文章"
+            android:inputType="textMultiLine"
+            android:textSize="24dp"
+            android:visibility="visible" />
+
+        <WebView
+            android:id="@+id/markdown_webView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:visibility="gone" />
+    </LinearLayout>
+</ScrollView>

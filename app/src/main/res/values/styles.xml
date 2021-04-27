@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="markdown_button">
+        <item name="android:background">@null</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="TopBar_CenterText">
+        <item name="android:background">@color/topBar_color</item>
+        <item name="android:textColor">@color/app_text_color</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/topBar_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/topBar_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <dimen name="topBar_text_size">16dp</dimen>
+</resources>

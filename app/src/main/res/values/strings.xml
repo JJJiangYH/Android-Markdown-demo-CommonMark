@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title">标题</string>
+    <string name="bold">粗体</string>
+    <string name="italics">斜体</string>
+    <string name="delete">删除线</string>
+    <string name="see">预览</string>
+    <string name="inline">下划线</string>
+    <string name="list">列表</string>
+    <string name="app_name">MarkdownDEMO</string>
+</resources>
