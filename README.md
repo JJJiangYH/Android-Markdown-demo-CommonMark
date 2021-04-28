@@ -1,7 +1,6 @@
-# Android-Markdown-demo-CommonMark
-A markdown edit demo in android by commonmark
+# Android-Markdown-demo-CommonMark-Java
 
-Android Studio 4.1.3
+Android Studio 4.1.3</br>
 Build #AI-201.8743.12.41.7199119, built on March 11, 2021
 Runtime version: 1.8.0_242-release-1644-b01 amd64
 VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o
